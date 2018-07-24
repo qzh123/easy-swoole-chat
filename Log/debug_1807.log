@@ -1,0 +1,66 @@
+18-07-23 15:39:20:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:39:59:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:40:03:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:40:13:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:43:13:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:44:42:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean) must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:45:25:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean) must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:48:27:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:53:15:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(?string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:54:00:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 15:54:13:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Class App\Socket\Parser\WebSocket contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode)]
+18-07-23 15:55:48:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(?string $raw, $client, $commandBean) must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-23 17:21:00:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[39] message:[Uncaught Error: Class 'App\Utility\Redis' not found in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:39
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /var/www/html/easy-swoole-chat/easyswoole(2): require]
+18-07-23 17:22:14:Error at file[/var/www/html/easy-swoole-chat/App/Utility/Redis.php] line[28] message:[Uncaught BadFunctionCallException: not support: redis in /var/www/html/easy-swoole-chat/App/Utility/Redis.php:28
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(39): App\Utility\Redis->__construct(Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easy]
+18-07-23 17:40:30:Error at file[/var/www/html/easy-swoole-chat/App/Utility/Redis.php] line[28] message:[Uncaught BadFunctionCallException: not support: redis in /var/www/html/easy-swoole-chat/App/Utility/Redis.php:28
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(39): App\Utility\Redis->__construct(Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easy]
+18-07-23 17:47:12:Error at file[/var/www/html/easy-swoole-chat/App/Utility/Redis.php] line[28] message:[Uncaught BadFunctionCallException: not support: redis in /var/www/html/easy-swoole-chat/App/Utility/Redis.php:28
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(39): App\Utility\Redis->__construct(Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easy]
+18-07-23 17:58:42:Error at file[/var/www/html/easy-swoole-chat/App/Utility/Redis.php] line[28] message:[Uncaught BadFunctionCallException: not support: redis in /var/www/html/easy-swoole-chat/App/Utility/Redis.php:28
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(39): App\Utility\Redis->__construct(Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easy]
+18-07-23 17:58:45:Error at file[/var/www/html/easy-swoole-chat/App/Utility/Redis.php] line[28] message:[Uncaught BadFunctionCallException: not support: redis in /var/www/html/easy-swoole-chat/App/Utility/Redis.php:28
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(39): App\Utility\Redis->__construct(Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easy]
