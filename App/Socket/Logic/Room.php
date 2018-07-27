@@ -10,17 +10,62 @@ class Room
      * 获取Redis连接实例
      * @return object Redis
      */
-    protected static function getRedis()
+    public static function getRedis()
     {
         return Di::getInstance()->get('REDIS')->handler();
+    }
+
+    public static function testSet()
+    {
+        return self::getRedis()->set('test', '这是一个测试');
+    }
+    public static function testGet()
+    {
+        return self::getRedis()->get('test');
+    }
+
+    /**
+     * 添加用户
+     * @param array $info
+     * @return mixed
+     */
+    public static function addUser(array $info)
+    {
+        $uid = self::getRedis()->incr('userid');
+        $info['uid'] = $uid;
+        self::getRedis()->hMset('user:'.$uid, $info);
+        self::getRedis()->hset('account.to.id',$info['account'],$uid);
+        return $uid;
+
+    }
+
+
+    public static function getUserIdByAccount(string $account)
+    {
+        return self::getRedis()->hget('account.to.id',$account);
+    }
+
+    public static function getUser(int $userId, array $fields)
+    {
+        return self::getRedis()->hMget('user:'.$userId,$fields);
+    }
+
+    /**
+     * 添加用户
+     * @param int $uid
+     * @param string $info
+     * @return mixed
+     */
+    public static function setUser(int $uid, string $info)
+    {
+        return self::getRedis()->hMset('user:'.$uid, $info);
     }
 
     /**
      * 进入房间
      * @param  int    $roomId 房间id
-     * @param  int    $userId userId
      * @param  int    $fd     连接id
-     * @return
+     * @return null
      */
     public static function joinRoom(int $roomId, int $fd)
     {
@@ -37,7 +82,7 @@ class Room
      */
     public static function login(int $userId, int $fd)
     {
-        self::getRedis()->zAdd('online', $userId, $fd);
+        return self::getRedis()->zAdd('online', $userId, $fd);
     }
 
     /**

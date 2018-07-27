@@ -39,7 +39,17 @@ Class EasySwooleEvent implements EventInterface {
         //注册onClose事件
         $register->add($register::onClose, function (\swoole_server $server, $fd, $reactorId) {
             //清除Redis fd的全部关联
+            var_dump($fd.'========'.$reactorId);
             Room::close($fd);
+            $userId = Room::getUserId($fd);
+            $userInfo = Room::getUser($userId,['account']);
+            $account = $userInfo['account']??'';
+            $data = json_encode(['msgType'=>'disconnect','msg'=>$account.'退出群聊'],JSON_UNESCAPED_UNICODE);
+            foreach ($server->connections as $client) {
+                if($fd != $client){
+                    $server->send($client, $data);
+                }
+            }
         });
         // 注册Redis
         Di::getInstance()->set('REDIS', new Redis(Config::getInstance()->getConf('REDIS')));

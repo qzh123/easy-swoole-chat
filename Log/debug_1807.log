@@ -64,3 +64,111 @@ Stack trace:
 #4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
 #5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
 #6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easy]
+18-07-24 16:52:41:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[40] message:[Uncaught ArgumentCountError: Too few arguments to function EasySwoole\EasySwooleEvent::EasySwoole\{closure}(), 2 passed in /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php on line 71 and exactly 3 expected in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:40
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#2 {main}
+  thrown]
+18-07-24 16:55:24:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[40] message:[Uncaught ArgumentCountError: Too few arguments to function EasySwoole\EasySwooleEvent::EasySwoole\{closure}(), 2 passed in /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php on line 71 and exactly 3 expected in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:40
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#2 {main}
+  thrown]
+18-07-24 16:59:05:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php] line[25] message:[Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::joinRoom() must be of the type integer, object given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 43 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:25
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(43): App\Socket\Logic\Room::joinRoom(1000, Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#3 {main}
+  thrown]
+18-07-24 17:01:06:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php] line[25] message:[Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::joinRoom() must be of the type integer, object given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 43 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:25
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(43): App\Socket\Logic\Room::joinRoom(1000, Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#3 {main}
+  thrown]
+18-07-24 18:04:33:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Uncaught Error: Cannot use object of type Swoole\Http\Request as array in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:42
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#2 {main}
+  thrown]
+18-07-24 18:33:46:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[81] message:[Cannot declare class App\Socket\Controller\WebSocket\Test, because the name is already in use]
+18-07-24 18:36:41:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[81] message:[Cannot declare class App\Socket\Controller\WebSocket\Test1, because the name is already in use]
+18-07-25 09:35:37:Error at file[/var/www/html/easy-swoole-chat/App/Parser.php] line[18] message:[Undefined index: content]
+18-07-25 09:35:44:Error at file[/var/www/html/easy-swoole-chat/App/Parser.php] line[18] message:[Undefined index: content]
+18-07-25 09:35:51:Error at file[/var/www/html/easy-swoole-chat/App/Parser.php] line[18] message:[Undefined index: content]
+18-07-25 10:11:41:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[41] message:[Trying to get property 'fd' of non-object]
+18-07-25 10:31:49:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-25 10:34:41:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-25 10:34:45:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-25 10:37:20:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-25 10:37:33:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-25 10:42:42:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[45] message:[Array to string conversion]
+18-07-26 11:53:10:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php] line[93] message:[Cannot redeclare App\Socket\Logic\Room::getUserId()]
+18-07-26 15:44:15:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 15:45:07:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 15:46:32:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client.]
+18-07-26 15:49:52:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client.]
+18-07-26 15:58:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 15:58:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client.]
+18-07-26 15:58:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 16:43:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 16:43:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client.]
+18-07-26 16:43:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:20:54:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 17:22:59:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 17:22:59:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client.]
+18-07-26 17:22:59:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:22:59:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[3] is not a websocket client.]
+18-07-26 17:24:21:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:24:29:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-26 17:24:29:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:24:29:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[3] is not a websocket client.]
+18-07-26 17:25:35:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:25:35:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:25:45:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:26:24:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:26:32:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:26:32:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:26:43:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:26:48:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:33:43:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[7] is not a websocket client.]
+18-07-26 17:33:43:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[6] is not a websocket client.]
+18-07-26 17:33:43:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[8] is not a websocket client.]
+18-07-26 17:56:22:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:57:15:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:58:34:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:58:34:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:58:50:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 17:58:50:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 18:01:36:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 18:01:36:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 18:07:54:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 18:09:59:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-26 18:09:59:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 09:17:15:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 09:58:26:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 09:58:26:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 09:58:26:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 09:58:58:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:00:11:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:00:11:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:03:22:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:05:40:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:09:37:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:11:06:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:27:35:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:27:35:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:27:35:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:27:35:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:29:00:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:35:39:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 10:49:32:Error at file[/var/www/html/easy-swoole-chat/EasySwooleEvent.php] line[42] message:[Trying to get property 'fd' of non-object]
+18-07-27 14:39:50:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-27 14:40:14:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-27 14:40:18:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-27 14:40:21:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]

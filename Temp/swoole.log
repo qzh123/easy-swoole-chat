@@ -1,0 +1,29 @@
+[2018-07-24 16:52:41 *5674.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ArgumentCountError: Too few arguments to function EasySwoole\EasySwooleEvent::EasySwoole\{closure}(), 2 passed in /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php on line 71 and exactly 3 expected in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:40
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure
+[2018-07-24 16:52:41 $5656.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-24 16:55:24 *5675.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ArgumentCountError: Too few arguments to function EasySwoole\EasySwooleEvent::EasySwoole\{closure}(), 2 passed in /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php on line 71 and exactly 3 expected in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:40
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure
+[2018-07-24 16:55:24 $5656.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-07-24 16:59:05 *6203.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::joinRoom() must be of the type integer, object given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 43 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:25
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(43): App\Socket\Logic\Room::joinRoom(1000, Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoo
+[2018-07-24 16:59:05 $6185.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-24 17:01:06 *6204.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::joinRoom() must be of the type integer, object given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 43 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:25
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(43): App\Socket\Logic\Room::joinRoom(1000, Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoo
+[2018-07-24 17:01:06 $6185.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-07-24 18:04:33 *12219.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Cannot use object of type Swoole\Http\Request as array in /var/www/html/easy-swoole-chat/EasySwooleEvent.php:42
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole
+[2018-07-24 18:04:33 $12201.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-24 18:33:46 *14862.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class App\Socket\Controller\WebSocket\Test, because the name is already in use in /var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php on line 81.
+[2018-07-24 18:33:46 $14843.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-07-24 18:36:41 *14987.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class App\Socket\Controller\WebSocket\Test1, because the name is already in use in /var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php on line 81.
+[2018-07-24 18:36:41 $14968.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-07-26 11:53:10 *24871.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot redeclare App\Socket\Logic\Room::getUserId() in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php on line 93.
+[2018-07-26 11:53:10 $24853.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
