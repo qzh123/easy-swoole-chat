@@ -27,3 +27,80 @@ Stack trace:
 [2018-07-24 18:36:41 $14968.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
 [2018-07-26 11:53:10 *24871.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot redeclare App\Socket\Logic\Room::getUserId() in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php on line 93.
 [2018-07-26 11:53:10 $24853.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-30 11:09:34 *13502.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=7] is closed.
+[2018-07-30 11:09:34 #13481.1]	WARNING	swReactorThread_send: connection#53 is closed by client.
+[2018-07-30 11:09:34 *13500.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=7] is closed.
+[2018-07-30 11:09:34 *13500.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=8] is closed.
+[2018-07-30 11:09:34 *13501.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=6] is closed.
+[2018-07-30 11:09:34 *13501.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=8] is closed.
+[2018-07-30 11:13:06 *13501.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=9] is closed.
+[2018-07-30 11:18:42 *13500.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=12] is closed.
+[2018-07-30 14:51:35 ^17446.10]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swo
+[2018-07-30 14:51:35 $17439.0]	WARNING	swManager_check_exit_status: worker#10 abnormal exit, status=255, signal=0
+[2018-07-30 14:51:38 ^17447.11]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swo
+[2018-07-30 14:51:38 $17439.0]	WARNING	swManager_check_exit_status: worker#11 abnormal exit, status=255, signal=0
+[2018-07-30 14:52:01 ^17448.12]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swo
+[2018-07-30 14:52:01 $17439.0]	WARNING	swManager_check_exit_status: worker#12 abnormal exit, status=255, signal=0
+[2018-07-30 15:00:40 *17457.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 45 byte failed, because connection[fd=8] is closed.
+[2018-07-30 15:19:30 *24401.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUser() must be of the type string, array given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 49 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:60
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(49): App\Socket\Logic\Room::setUser(0, Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker
+[2018-07-30 15:19:30 $24383.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-30 15:19:48 *24402.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUser() must be of the type string, array given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 49 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:60
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(49): App\Socket\Logic\Room::setUser(0, Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker
+[2018-07-30 15:19:48 $24383.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-07-30 15:19:52 *24512.6]	NOTICE	swFactoryProcess_end (ERROR 1003): The connection[2] is closing.
+[2018-07-30 17:01:52 *2580.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=6] is closed.
+[2018-07-30 17:01:52 *2580.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=7] is closed.
+[2018-07-30 17:01:52 *2580.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=8] is closed.
+[2018-07-30 17:01:52 *2575.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=4] is closed.
+[2018-07-30 17:01:52 *2575.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=6] is closed.
+[2018-07-30 17:01:52 *2575.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=8] is closed.
+[2018-07-30 17:01:52 *2582.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=8] is closed.
+[2018-07-30 17:18:49 *2580.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=18] is closed.
+[2018-07-30 17:18:49 *2575.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=16] is closed.
+[2018-07-30 17:18:49 *2575.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=17] is closed.
+[2018-07-30 17:18:49 *2582.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=16] is closed.
+[2018-07-30 17:21:06 *2580.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=20] is closed.
+[2018-07-30 17:25:02 *2581.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=26] is closed.
+[2018-07-30 17:26:05 *2581.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 56 byte failed, because connection[fd=27] is closed.
+[2018-07-31 11:49:42 ^14025.11]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swo
+[2018-07-31 11:49:42 $14017.0]	WARNING	swManager_check_exit_status: worker#11 abnormal exit, status=255, signal=0
+[2018-07-31 11:58:40 *14643.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 59 byte failed, because connection[fd=2] is closed.
+[2018-07-31 11:58:40 *14642.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 58 byte failed, because connection[fd=1] is closed.
+[2018-07-31 14:57:32 *20360.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=1] is closed.
+[2018-07-31 14:57:32 *20360.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=5] is closed.
+[2018-07-31 14:57:32 *20361.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=1] is closed.
+[2018-07-31 14:57:32 *20359.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=3] is closed.
+[2018-07-31 14:58:20 *24937.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method App\Socket\Logic\Room::getRoomId() in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:147
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(49): App\Socket\Logic\Room::close(2)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), 2, 2)
+#2 /var/www/html/easy-swoole-chat
+[2018-07-31 14:58:20 $24918.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-07-31 18:01:47 *31097.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 77 byte failed, because connection[fd=2] is closed.
+[2018-07-31 18:04:33 *31098.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 77 byte failed, because connection[fd=5] is closed.
+[2018-07-31 18:04:33 *31098.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 77 byte failed, because connection[fd=7] is closed.
+[2018-07-31 18:04:33 *31097.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 77 byte failed, because connection[fd=5] is closed.
+[2018-07-31 18:05:59 *31096.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=11] is closed.
+[2018-08-01 09:11:02 *31096.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 77 byte failed, because connection[fd=14] is closed.
+[2018-08-01 09:11:03 *31097.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 93 byte failed, because connection[fd=16] is closed.

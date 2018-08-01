@@ -23,6 +23,8 @@ use \App\Socket\Parser\WebSocket;
 use \App\Utility\Redis;
 // 引入上文Room文件
 use \App\Socket\Logic\Room;
+// 引入异步任务管理器
+use EasySwoole\Core\Swoole\Task\TaskManager;
 
 Class EasySwooleEvent implements EventInterface {
 
@@ -37,17 +39,18 @@ Class EasySwooleEvent implements EventInterface {
         // 注册WebSocket解析器
         EventHelper::registerDefaultOnMessage($register, WebSocket::class);
         //注册onClose事件
-        $register->add($register::onClose, function (\swoole_server $server, $fd, $reactorId) {
-            //清除Redis fd的全部关联
-            var_dump($fd.'========'.$reactorId);
-            Room::close($fd);
+        $register->add($register::onClose, function (\swoole_server $ws, $fd, $reactorId) {
             $userId = Room::getUserId($fd);
-            $userInfo = Room::getUser($userId,['account']);
+            $userInfo = Room::getUser($userId,['account','rooms']);
             $account = $userInfo['account']??'';
-            $data = json_encode(['msgType'=>'disconnect','msg'=>$account.'退出群聊'],JSON_UNESCAPED_UNICODE);
-            foreach ($server->connections as $client) {
-                if($fd != $client){
-                    $server->send($client, $data);
+            $roomsArr = !empty($userInfo['rooms'])?explode(',',$userInfo['rooms']):[];
+            //清除Redis fd的全部关联，清除用户和房间的关联关系
+            Room::close($fd,$roomsArr);
+            Room::setUser($userId,['online'=>false,'rooms'=>'']);
+            $data = json_encode(['status'=>200,'data'=>['msgType'=>'offline','msg'=>$account.'退出群聊','rooms'=>$roomsArr]],JSON_UNESCAPED_UNICODE);
+            foreach($ws->connections as $client){
+                if ($fd != $client){
+                    $ws->push($client,$data);
                 }
             }
         });

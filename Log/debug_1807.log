@@ -172,3 +172,124 @@ Stack trace:
 18-07-27 14:40:14:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
 18-07-27 14:40:18:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
 18-07-27 14:40:21:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-30 11:26:54:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-30 11:26:54:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-30 11:26:54:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[10] is not a websocket client.]
+18-07-30 11:27:15:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-30 11:27:15:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-30 11:27:15:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[10] is not a websocket client.]
+18-07-30 11:27:46:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-30 11:27:46:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-30 11:27:46:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[10] is not a websocket client.]
+18-07-30 11:30:13:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-30 11:30:13:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[1] is not a websocket client.]
+18-07-30 11:30:13:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[10] is not a websocket client.]
+18-07-30 11:33:17:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:33:17:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:33:35:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-30 11:33:35:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[10] is not a websocket client.]
+18-07-30 11:33:35:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:33:35:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:33:37:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:33:37:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:35:48:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:35:48:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:35:49:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:35:49:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:35:51:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[4] is not a websocket client.]
+18-07-30 11:35:51:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[10] is not a websocket client.]
+18-07-30 11:35:51:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:35:51:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:35:51:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:35:51:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 11:43:13:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[16] is not a websocket client.]
+18-07-30 11:43:13:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[17] is not a websocket client.]
+18-07-30 14:51:35:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php] line[116] message:[Serialization of closure failed: The closure was not found within the abstract syntax tree.]
+18-07-30 14:51:35:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php] line[110] message:[Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(67): Swoole\Http\Server->start()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#7 /var/]
+18-07-30 14:51:38:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php] line[116] message:[Serialization of closure failed: The closure was not found within the abstract syntax tree.]
+18-07-30 14:51:38:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php] line[110] message:[Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(67): Swoole\Http\Server->start()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#7 /var/]
+18-07-30 14:52:01:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php] line[116] message:[Serialization of closure failed: The closure was not found within the abstract syntax tree.]
+18-07-30 14:52:01:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php] line[110] message:[Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(67): Swoole\Http\Server->start()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#7 /var/]
+18-07-30 15:19:30:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php] line[60] message:[Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUser() must be of the type string, array given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 49 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:60
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(49): App\Socket\Logic\Room::setUser(0, Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), 1, 1)
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#3 {main}
+  thrown]
+18-07-30 15:19:48:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[79] message:[explode() expects parameter 2 to be string, array given]
+18-07-30 15:19:48:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[80] message:[in_array() expects parameter 2 to be array, null given]
+18-07-30 15:19:48:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[81] message:[Array to string conversion]
+18-07-30 15:19:48:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php] line[60] message:[Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUser() must be of the type string, array given, called in /var/www/html/easy-swoole-chat/EasySwooleEvent.php on line 49 and defined in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:60
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(49): App\Socket\Logic\Room::setUser(0, Array)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), 2, -1)
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#3 {main}
+  thrown]
+18-07-30 15:19:52:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[79] message:[explode() expects parameter 2 to be string, array given]
+18-07-30 15:19:52:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[80] message:[in_array() expects parameter 2 to be array, null given]
+18-07-30 15:19:52:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[81] message:[Array to string conversion]
+18-07-30 15:23:15:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[79] message:[explode() expects parameter 2 to be string, array given]
+18-07-30 15:23:15:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[80] message:[in_array() expects parameter 2 to be array, null given]
+18-07-30 15:23:15:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Controller/WebSocket/Index.php] line[81] message:[Array to string conversion]
+18-07-30 15:23:15:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[6] message:[Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client.]
+18-07-30 17:56:10:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-30 17:56:10:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-30 17:56:16:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-30 17:56:16:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-30 17:56:17:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-30 17:56:17:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-30 17:56:20:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-30 17:56:20:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-30 17:56:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-30 17:56:34:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-31 09:34:24:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-31 09:34:24:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-31 09:34:43:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[30] is not a websocket client.]
+18-07-31 09:34:43:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code] line[5] message:[Swoole\WebSocket\Server::push(): the connected client of connection[31] is not a websocket client.]
+18-07-31 11:49:42:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php] line[116] message:[Serialization of closure failed: cannot serialize or unserialize.]
+18-07-31 11:49:42:Error at file[/var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php] line[110] message:[Uncaught SuperClosure\Exception\ClosureUnserializationException: The closure did not unserialize to a SuperClosure. in /var/www/html/easy-swoole-chat/vendor/jeremeamia/SuperClosure/src/Serializer.php:110
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/SuperClosure.php(35): SuperClosure\Serializer->unserialize('N;')
+#1 [internal function]: EasySwoole\Core\Component\SuperClosure->__wakeup()
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(67): Swoole\Http\Server->start()
+#3 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#4 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#5 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#6 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#7 /var/]
+18-07-31 14:58:20:Error at file[/var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php] line[147] message:[Uncaught Error: Call to undefined method App\Socket\Logic\Room::getRoomId() in /var/www/html/easy-swoole-chat/App/Socket/Logic/Room.php:147
+Stack trace:
+#0 /var/www/html/easy-swoole-chat/EasySwooleEvent.php(49): App\Socket\Logic\Room::close(2)
+#1 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Component/Invoker.php(71): EasySwoole\EasySwooleEvent::EasySwoole\{closure}(Object(Swoole\WebSocket\Server), 2, 2)
+#2 /var/www/html/easy-swoole-chat/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(137): EasySwoole\Core\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#3 {main}
+  thrown]

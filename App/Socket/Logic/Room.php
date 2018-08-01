@@ -33,12 +33,13 @@ class Room
     {
         $uid = self::getRedis()->incr('userid');
         $info['uid'] = $uid;
+        $info['rooms'] = '';
+        $info['friends'] = '';
+        $info['online'] = true;
         self::getRedis()->hMset('user:'.$uid, $info);
         self::getRedis()->hset('account.to.id',$info['account'],$uid);
         return $uid;
-
     }
-
 
     public static function getUserIdByAccount(string $account)
     {
@@ -53,10 +54,10 @@ class Room
     /**
      * 添加用户
      * @param int $uid
-     * @param string $info
+     * @param array $info
      * @return mixed
      */
-    public static function setUser(int $uid, string $info)
+    public static function setUser(int $uid, array $info)
     {
         return self::getRedis()->hMset('user:'.$uid, $info);
     }
@@ -70,7 +71,7 @@ class Room
     public static function joinRoom(int $roomId, int $fd)
     {
         $userId = self::getUserId($fd);
-        self::getRedis()->zAdd('rfMap', $roomId, $fd);
+//        self::getRedis()->zAdd('rfMap', $roomId, $fd);
         self::getRedis()->hSet("room:{$roomId}", $fd, $userId);
     }
 
@@ -105,15 +106,15 @@ class Room
         return self::getRedis()->zRange('online', $userId, $userId, true);
     }
 
-    /**
-     * 获取RoomId
-     * @param  int    $fd
-     * @return int    RoomId
-     */
-    public static function getRoomId(int $fd)
-    {
-        return self::getRedis()->zScore('rfMap', $fd);
-    }
+//    /**
+//     * 获取RoomId
+//     * @param  int    $fd
+//     * @return int    RoomId
+//     */
+//    public static function getRoomId(int $fd)
+//    {
+//        return self::getRedis()->zScore('rfMap', $fd);
+//    }
 
     /**
      * 获取room中全部fd
@@ -127,24 +128,28 @@ class Room
 
     /**
      * 退出room
-     * @param  int    $roomId roomId
+     * @param  string    $roomId roomId
      * @param  int    $fd     fd
      * @return
      */
-     public static function exitRoom(int $roomId, int $fd)
+     public static function exitRoom(string $roomId, int $fd)
      {
          self::getRedis()->hDel("room:{$roomId}", $fd);
-         self::getRedis()->zRem('rfMap', $fd);
+//         self::getRedis()->zRem('rfMap', $fd);
      }
 
     /**
      * 关闭连接
      * @param  string $fd 链接id
+     * @param  array $rooms 房间号数组
      */
-    public static function close(int $fd)
+    public static function close(int $fd, array $rooms)
     {
-        $roomId = self::getRoomId($fd);
-        self::exitRoom($roomId, $fd);
+//        $keys = self::getRedis()->keys('roomid:5:id.*');
+//        self::getRedis()->delete($keys);
+        foreach ($rooms as $roomId){
+            self::exitRoom($roomId, $fd);
+        }
         self::getRedis()->zRem('online', $fd);
     }
 }
