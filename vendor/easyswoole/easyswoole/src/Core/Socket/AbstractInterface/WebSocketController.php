@@ -26,4 +26,8 @@ abstract class WebSocketController extends Controller
         // TODO: Implement client() method.
         return $this->client;
     }
+
+    public function format(int $status, array $data){
+        return json_encode(['status'=>$status,'data'=>$data],JSON_UNESCAPED_UNICODE);
+    }
 }
